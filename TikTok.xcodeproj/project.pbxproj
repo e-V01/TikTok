@@ -24,6 +24,7 @@
 		9E3E86332B1A540C00F3FD98 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86322B1A540C00F3FD98 /* UserStatView.swift */; };
 		9E3E86352B1A6CB900F3FD98 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86342B1A6CB900F3FD98 /* Post.swift */; };
 		9E3E863A2B1A6D1F00F3FD98 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86392B1A6D1F00F3FD98 /* FeedViewModel.swift */; };
+		9E3E863C2B1A706B00F3FD98 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E863B2B1A706B00F3FD98 /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		9E3E86322B1A540C00F3FD98 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		9E3E86342B1A6CB900F3FD98 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9E3E86392B1A6D1F00F3FD98 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		9E3E863B2B1A706B00F3FD98 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 		9E3E86192B1A2FB800F3FD98 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				9E3E863B2B1A706B00F3FD98 /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3E85FE2B1A2EF100F3FD98 /* ContentView.swift in Sources */,
+				9E3E863C2B1A706B00F3FD98 /* CustomVideoPlayer.swift in Sources */,
 				9E3E86212B1A37BA00F3FD98 /* FeedCell.swift in Sources */,
 				9E3E862D2B1A509500F3FD98 /* ProfileHeaderView.swift in Sources */,
 				9E3E86332B1A540C00F3FD98 /* UserStatView.swift in Sources */,
