@@ -14,6 +14,8 @@
 		9E3E861D2B1A309A00F3FD98 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E861C2B1A309A00F3FD98 /* MainTabView.swift */; };
 		9E3E861F2B1A35E800F3FD98 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E861E2B1A35E800F3FD98 /* FeedView.swift */; };
 		9E3E86212B1A37BA00F3FD98 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86202B1A37BA00F3FD98 /* FeedCell.swift */; };
+		9E3E86232B1A456E00F3FD98 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86222B1A456E00F3FD98 /* ExploreView.swift */; };
+		9E3E86252B1A457E00F3FD98 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86242B1A457E00F3FD98 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9E3E861C2B1A309A00F3FD98 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		9E3E861E2B1A35E800F3FD98 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		9E3E86202B1A37BA00F3FD98 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		9E3E86222B1A456E00F3FD98 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		9E3E86242B1A457E00F3FD98 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		9E3E86142B1A2FAC00F3FD98 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				9E3E86222B1A456E00F3FD98 /* ExploreView.swift */,
+				9E3E86242B1A457E00F3FD98 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 				9E3E86212B1A37BA00F3FD98 /* FeedCell.swift in Sources */,
 				9E3E861F2B1A35E800F3FD98 /* FeedView.swift in Sources */,
 				9E3E85FC2B1A2EF100F3FD98 /* TikTokApp.swift in Sources */,
+				9E3E86232B1A456E00F3FD98 /* ExploreView.swift in Sources */,
 				9E3E861D2B1A309A00F3FD98 /* MainTabView.swift in Sources */,
+				9E3E86252B1A457E00F3FD98 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
