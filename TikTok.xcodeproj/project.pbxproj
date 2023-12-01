@@ -22,6 +22,8 @@
 		9E3E862D2B1A509500F3FD98 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E862C2B1A509500F3FD98 /* ProfileHeaderView.swift */; };
 		9E3E862F2B1A50AE00F3FD98 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E862E2B1A50AE00F3FD98 /* PostGridView.swift */; };
 		9E3E86332B1A540C00F3FD98 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86322B1A540C00F3FD98 /* UserStatView.swift */; };
+		9E3E86352B1A6CB900F3FD98 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86342B1A6CB900F3FD98 /* Post.swift */; };
+		9E3E863A2B1A6D1F00F3FD98 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E86392B1A6D1F00F3FD98 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		9E3E862C2B1A509500F3FD98 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		9E3E862E2B1A50AE00F3FD98 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		9E3E86322B1A540C00F3FD98 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		9E3E86342B1A6CB900F3FD98 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9E3E86392B1A6D1F00F3FD98 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 		9E3E860E2B1A2F3400F3FD98 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9E3E86342B1A6CB900F3FD98 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,8 +204,9 @@
 		9E3E86182B1A2FB600F3FD98 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				9E3E861E2B1A35E800F3FD98 /* FeedView.swift */,
-				9E3E86202B1A37BA00F3FD98 /* FeedCell.swift */,
+				9E3E86382B1A6CF400F3FD98 /* ViewModel */,
+				9E3E86372B1A6CED00F3FD98 /* View */,
+				9E3E86362B1A6CE600F3FD98 /* Service */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -242,6 +248,30 @@
 				9E3E862A2B1A4F4B00F3FD98 /* CurrentUserProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9E3E86362B1A6CE600F3FD98 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9E3E86372B1A6CED00F3FD98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E3E861E2B1A35E800F3FD98 /* FeedView.swift */,
+				9E3E86202B1A37BA00F3FD98 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E3E86382B1A6CF400F3FD98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E3E86392B1A6D1F00F3FD98 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +349,8 @@
 				9E3E862D2B1A509500F3FD98 /* ProfileHeaderView.swift in Sources */,
 				9E3E86332B1A540C00F3FD98 /* UserStatView.swift in Sources */,
 				9E3E861F2B1A35E800F3FD98 /* FeedView.swift in Sources */,
+				9E3E863A2B1A6D1F00F3FD98 /* FeedViewModel.swift in Sources */,
+				9E3E86352B1A6CB900F3FD98 /* Post.swift in Sources */,
 				9E3E85FC2B1A2EF100F3FD98 /* TikTokApp.swift in Sources */,
 				9E3E86232B1A456E00F3FD98 /* ExploreView.swift in Sources */,
 				9E3E861D2B1A309A00F3FD98 /* MainTabView.swift in Sources */,
